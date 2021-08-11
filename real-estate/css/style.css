@@ -48,7 +48,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 6rem;
-  overflow: hidden;
+  padding-top: 1rem;
 }
 
 .flex {
@@ -63,7 +63,7 @@ header {
 
 header nav {
   height: 3.125rem;
-  margin: 1.875rem auto 1.875rem auto;
+  margin: 0 auto 1.875rem auto;
 }
 
 header nav .main-menu {
@@ -126,13 +126,16 @@ header .hero-text-box .hero-body {
 
 header .listing {
   color: var(--main-color);
-  margin: 0 auto 3.125rem auto;
   height: 6.25rem;
   background-color: #ffffff;
   display: flex;
   align-items: center;
   padding-left: 2rem;
   gap: 0.8rem;
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  width: 66.8125rem;
 }
 
 header .listing i {
@@ -239,6 +242,8 @@ h2::before {
 .search-section .criteria h2::before {
   width: 10.5625rem;
   height: 0.25rem;
+}
+.search-section .criteria .select-container {
 }
 
 .search-section .criteria .select-container .select {
