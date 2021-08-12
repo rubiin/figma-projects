@@ -218,7 +218,6 @@ h2::before {
 
 .search-section {
   background-color: #f5f5f5;
-
 }
 
 .search-section .criteria {
@@ -272,16 +271,16 @@ h2::before {
   border-bottom-left-radius: 1rem;
   overflow: hidden;
   grid-column: 1 / span 1;
-  border-right: 1px solid #E4E4E4;
+  border-right: 1px solid #e4e4e4;
 }
 
 .search-section .criteria #location {
-   border-right: 1px solid #E4E4E4;
+  border-right: 1px solid #e4e4e4;
   grid-column: 2 / span 1;
 }
 
 .search-section .criteria #property-type {
-   border-right: 1px solid #E4E4E4;
+  border-right: 1px solid #e4e4e4;
   grid-column: 3 / span 1;
 }
 
@@ -296,20 +295,20 @@ h2::before {
   margin: 0 auto;
   display: grid;
   gap: 1.5rem 2rem;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 21rem);
 }
 
 .card {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 16rem;
+  height: 26.125rem;
   overflow: hidden;
   border-radius: 1.5625rem;
 }
 
 .card .image {
-  height: 10rem;
+  flex: 1 1 21rem;
 }
 
 .card .image img {
@@ -319,6 +318,25 @@ h2::before {
 }
 
 .card .card-content {
-  height: 6rem;
-  background-color: #fff;
+  flex: 1 1 9.5rem;
+  position: relative;
+}
+
+.card .card-content h4 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.9375rem;
+  letter-spacing: -0.0377rem;
+  color: #000000;
+  height: 50%;
+  width: 200px;
+  padding-left: 14.93%;
+  display: flex;
+  align-items: center;
+}
+
+.card .card-content .stats {
+display: flex;
+height: 50%;
+align-items: flex-end;
 }
