@@ -218,6 +218,7 @@ h2::before {
 
 .search-section {
   background-color: #f5f5f5;
+  padding-bottom: 5rem;
 }
 
 .search-section .criteria {
@@ -305,6 +306,7 @@ h2::before {
   height: 26.125rem;
   overflow: hidden;
   border-radius: 1.5625rem;
+  box-shadow: 0px 32px 34px rgba(0, 0, 0, 0.133714);
 }
 
 .card .image {
@@ -319,7 +321,6 @@ h2::before {
 
 .card .card-content {
   flex: 1 1 9.5rem;
-  position: relative;
 }
 
 .card .card-content h4 {
@@ -329,14 +330,72 @@ h2::before {
   letter-spacing: -0.0377rem;
   color: #000000;
   height: 50%;
-  width: 200px;
-  padding-left: 14.93%;
-  display: flex;
-  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 1.8rem;
 }
 
 .card .card-content .stats {
-display: flex;
-height: 50%;
-align-items: flex-end;
+  display: flex;
+  align-items: center;
+  height: 50%;
+  border-top: 1px solid #e4e4e4;
+}
+
+.card .card-content .stats li {
+  flex: 1 1 auto;
+  text-align: center;
+  border-right: 1px solid #e4e4e4;
+}
+
+.card .card-content .stats li span {
+  padding-left: 8px;
+}
+
+.good-hands {
+  height: 42.125rem;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.good-hands .wrapper {
+  width: 30.3125rem;
+  height: 23.6875rem;
+}
+
+.good-hands .wrapper h3 {
+  color: white;
+  font-weight: bold;
+  font-size: 3.125rem;
+  line-height: 4.0625rem;
+  text-align: center;
+  letter-spacing: -0.0785rem;
+}
+
+.good-hands .wrapper p {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  text-align: center;
+  letter-spacing: -0.0314rem;
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+  opacity: 0.6;
+}
+
+.good-hands button {
+  margin: 1rem auto 0 auto;
+  background-color: #FFAC12;
+  width: 13.0625rem;
+  height: 4.375rem;
+  font-weight: bold;
+  font-size: 1.0625rem;
+  line-height: 1.375rem;
+  letter-spacing: -0.427179px;
 }
